@@ -1,16 +1,19 @@
 from flask import Flask, send_from_directory
+import os
 app = Flask(__name__)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 @app.route("/ai.jpg")
 def ai_image():
-    return send_from_directory(".", "ai.jpg")
+    return send_from_directory(BASE_DIR, "ai.jpg")
 
 @app.route("/robot.jpg")
 def robot_image():
-    return send_from_directory(".", "robot.jpg")
+    return send_from_directory(BASE_DIR, "robot.jpg")
 
 @app.route("/software.jpg")
 def software_image():
-    return send_from_directory(".", "software.jpg")
+    return send_from_directory(BASE_DIR, "software.jpg")
 
 app = Flask(__name__)
 print(app.static_folder)
