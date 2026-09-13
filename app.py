@@ -1,4 +1,16 @@
-from flask import Flask
+from flask import Flask, send_from_directory
+app = Flask(__name__)
+@app.route("/ai.jpg")
+def ai_image():
+    return send_from_directory(".", "ai.jpg")
+
+@app.route("/robot.jpg")
+def robot_image():
+    return send_from_directory(".", "robot.jpg")
+
+@app.route("/software.jpg")
+def software_image():
+    return send_from_directory(".", "software.jpg")
 
 app = Flask(__name__)
 print(app.static_folder)
