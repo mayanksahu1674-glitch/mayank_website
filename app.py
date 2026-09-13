@@ -184,7 +184,7 @@ def home():
 
         <div class="card" id="software">
 
-            <img src="/static/software.jpg">
+            <img src="/software.jpg">
 
             <h2>
                 💻 Software Engineer Tips
@@ -203,7 +203,7 @@ def home():
 
         <div class="card" id="ai">
 
-            <img src="/static/ai.jpg">
+            <img src="/ai.jpg">
 
             <h2>
                 🤖 AI Engineer Tips
@@ -222,7 +222,7 @@ def home():
 
         <div class="card" id="robotics">
 
-            <img src="/static/robot.jpg">
+            <img src="/robot.jpg">
 
             <h2>
                 🦾 Robotics
