@@ -687,6 +687,27 @@ def downloads():
     <div class="download-box">
 
         <h3>🧮 Mayank Calculator</h3>
+        <h2>💻 Computer Fundamentals</h2>
+
+<div class="card">
+    <h3>📘 Unit 1</h3>
+    <a href="https://drive.google.com/file/d/1sqV3ZKz1nP8HNHmeg0HM8myOBNbWo2Mp/view?usp=sharing" target="_blank">OPEN</a>
+</div>
+
+<div class="card">
+    <h3>📘 Unit 2</h3>
+    <a href="https://drive.google.com/file/d/1zRz0AMFHfCXYDx7cTUlpVEIC8xKwOUIq/view?usp=sharing" target="_blank">OPEN</a>
+</div>
+
+<div class="card">
+    <h3>📘 Unit 3</h3>
+    <a href="https://drive.google.com/file/d/1F4Zp2fKpK1ktiV_ryZFhJWePQm381hdm/view?usp=sharing" target="_blank">OPEN</a>
+</div>
+
+<div class="card">
+    <h3>📘 Unit 4</h3>
+    <a href="https://drive.google.com/file/d/1xJNhRPPH3yq7NzMBtUnXJRRPEN8R-QQL/view?usp=sharing"_blank">OPEN</a>
+</div>
 
         <p>
             Python से बनाया गया हमारा calculator app।
