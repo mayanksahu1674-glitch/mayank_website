@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="hi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mayank TechLab</title>
+    <title>Articles - Mayank TechLab</title>
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
@@ -15,7 +16,7 @@
 
         <div class="logo">
             <h1>Mayank TechLab</h1>
-           <p>Technology • AI • Software • Robotics</p>
+            <p>Technology • AI • Software • Robotics</p>
         </div>
 
         <nav>
@@ -32,112 +33,77 @@
 
     </div>
 
-
     <main class="main-content">
 
         <section class="hero">
 
             <div class="hero-text">
 
-                <p class="small-title">WELCOME TO</p>
+                <p class="small-title">TECHNOLOGY ARTICLES</p>
 
-                <h1>Mayank <span>TechLab</span></h1>
+                <h1>Read <span>Articles</span></h1>
 
                 <p>
-                    Technology • Python • AI • Software • Robotics
+                    Technology • Programming • AI • Robotics
                 </p>
 
                 <p class="description">
-                    Technology और Programming की दुनिया को
-                    आसान और interesting तरीके से explore करें।
+                    Technology और Programming से जुड़े useful
+                    articles और आसान explanations यहाँ पढ़ें।
                 </p>
 
-                <a href="/about" class="main-button">
-                    Explore Website 🚀
-                </a>
-
             </div>
-
 
             <div class="hero-visual">
 
                 <div class="tech-orb">
                     <div class="orb-ring ring-1"></div>
                     <div class="orb-ring ring-2"></div>
-                    <div class="orb-core">AI</div>
+                    <div class="orb-core">ART</div>
                 </div>
 
             </div>
 
         </section>
 
-
         <section class="welcome-section">
 
-            <h2>Explore Technology</h2>
+            <h2>Latest Technology Topics</h2>
 
             <p>
-                Software, Artificial Intelligence और Robotics
-                से जुड़ी जानकारी एक जगह पर।
+                यहाँ Technology, Software, AI और Robotics से जुड़े
+                नए articles जोड़े जा सकते हैं।
             </p>
 
         </section>
 
-
         <section class="cards">
 
             <div class="tech-card">
-
-                <img src="{{ url_for('static', filename='images/software.jpg') }}"
-                     alt="Software">
-
-                <h3>💻 Software</h3>
-
+                <h3>🐍 Python Programming</h3>
                 <p>
-                    Python, Programming और Computer
-                    से जुड़ी जानकारी।
+                    Python programming के important concepts और
+                    practical learning के बारे में पढ़ें।
                 </p>
-
-                <a href="/software">Explore →</a>
-
             </div>
 
+            <div class="tech-card">
+                <h3>🤖 Artificial Intelligence</h3>
+                <p>
+                    AI और Machine Learning की दुनिया से जुड़े
+                    interesting topics पढ़ें।
+                </p>
+            </div>
 
             <div class="tech-card">
-
-                <img src="{{ url_for('static', filename='images/AI.jpg') }}"
-                     alt="Artificial Intelligence">
-
-                <h3>🤖 Artificial Intelligence</h3>
-
+                <h3>🦾 Future Robotics</h3>
                 <p>
-                    AI, Machine Learning और AI Tools
+                    Robots, automation और future technology
                     के बारे में जानें।
                 </p>
-
-                <a href="/ai">Explore →</a>
-
-            </div>
-
-
-            <div class="tech-card">
-
-                <img src="{{ url_for('static', filename='images/robot.jpg') }}"
-                     alt="Robotics">
-
-                <h3>🦾 Robotics</h3>
-
-                <p>
-                    Robots, Sensors, Arduino और
-                    Automation की जानकारी।
-                </p>
-
-                <a href="/robotics">Explore →</a>
-
             </div>
 
         </section>
-
 
         <footer>
 
@@ -149,4 +115,5 @@
     </main>
 
 </body>
+
 </html>
