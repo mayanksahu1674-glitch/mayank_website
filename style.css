@@ -309,3 +309,79 @@ footer {
         transform: scale(0.8);
     }
 }
+
+@media (max-width: 768px) {
+
+    .sidebar {
+        position: relative;
+        width: 180px;
+        height: auto;
+        padding: 15px 10px;
+        box-sizing: border-box;
+    }
+
+    .sidebar nav {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .sidebar nav a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 150px;
+        min-height: 42px;
+
+        padding: 8px 10px;
+        box-sizing: border-box;
+
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .sidebar nav a[href="/"] {
+        background: #16a34a;
+    }
+
+    .sidebar nav a[href="/software"] {
+        background: #2563eb;
+    }
+
+    .sidebar nav a[href="/ai"] {
+        background: #9333ea;
+    }
+
+    .sidebar nav a[href="/robotics"] {
+        background: #f97316;
+    }
+
+    .sidebar nav a[href="/tech-tips"] {
+        background: #0891b2;
+    }
+
+    .sidebar nav a[href="/articles"] {
+        background: #1d4ed8;
+    }
+
+    .sidebar nav a[href="/downloads"] {
+        background: #dc2626;
+    }
+
+    .sidebar nav a[href="/about"] {
+        background: #ca8a04;
+    }
+
+    .sidebar nav a[href="/contact"] {
+        background: #475569;
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
